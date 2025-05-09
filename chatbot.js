@@ -49,7 +49,7 @@ client.on('message', async msg => {
         );
     }
     
-    
+    // Opção 1
     if (msg.body !== null && msg.body === '1' && msg.from.endsWith('@c.us')) {
         const chat = await msg.getChat();
     
